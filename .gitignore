@@ -2,6 +2,9 @@
 **/.env
 **/.env.*
 
+# Runtime / local state files
+backend/.mcp_port
+
 # ---- Python ----
 __pycache__/
 *.py[cod]
