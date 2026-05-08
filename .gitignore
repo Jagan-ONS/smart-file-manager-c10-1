@@ -1,0 +1,48 @@
+# ---- Secrets ----
+**/.env
+**/.env.*
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyd
+*.pyo
+*.pkl
+*.log
+*.sqlite3
+*.db
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+backend/.venv/
+
+# ---- Node / Frontend ----
+node_modules/
+frontend/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build output / bundlers
+frontend/dist/
+.vite/
+.vite-cache/
+*.tsbuildinfo
+
+# ---- OS / Editor ----
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/

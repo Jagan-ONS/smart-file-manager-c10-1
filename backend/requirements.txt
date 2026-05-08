@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+mcp
+openai
+httpx
+httpx-sse
+anyio
+python-dotenv
